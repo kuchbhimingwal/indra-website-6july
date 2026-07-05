@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base-light text-slate-body font-body antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display text-base-dark;
+}
+
+.eyebrow {
+  @apply uppercase text-xs tracking-[0.2em] font-semibold text-forest;
+}
+
+.container-xl {
+  @apply mx-auto w-full max-w-7xl px-6 md:px-10;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-pill bg-amber px-6 py-3 text-sm font-semibold text-base-dark shadow-[0_8px_24px_-8px_rgba(245,166,35,0.6)] transition-all duration-300 hover:bg-amber-light hover:shadow-[0_12px_32px_-8px_rgba(245,166,35,0.75)] hover:-translate-y-0.5;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-pill border border-base-dark/15 bg-transparent px-6 py-3 text-sm font-semibold text-base-dark transition-all duration-300 hover:border-forest hover:text-forest;
+}
+
+.btn-ghost-dark {
+  @apply inline-flex items-center justify-center gap-2 rounded-pill border border-white/25 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-white/15;
+}
+
+.card {
+  @apply rounded-card border border-black/[0.06] bg-white shadow-[0_2px_16px_-4px_rgba(11,15,13,0.06)];
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
