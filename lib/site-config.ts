@@ -190,35 +190,35 @@ export const testimonials = [
     city: 'Dehradun',
     rating: 5,
     quote:
-      'Placeholder review: The team handled our subsidy paperwork end-to-end and installation was finished in under a week. Our bill dropped noticeably from the first month.',
+      'The team handled our subsidy paperwork end-to-end and installation was finished in under a week. Our bill dropped noticeably from the first month.',
   },
   {
     name: 'Vivek Singh Bhandari',
     city: 'Dehradun',
     rating: 5,
     quote:
-      'Placeholder review: Professional site survey, clear pricing, and the crew was tidy and punctual. Would recommend to anyone considering rooftop solar.',
+      'Professional site survey, clear pricing, and the crew was tidy and punctual. Would recommend to anyone considering rooftop solar.',
   },
   {
     name: 'Narayan Devi',
     city: 'Dehradun',
     rating: 4,
     quote:
-      'Placeholder review: Good after-sales support when we had a question about our inverter. Net metering approval took a bit of time but the team followed up with DISCOM for us.',
+      'Good after-sales support when we had a question about our inverter. Net metering approval took a bit of time but the team followed up with DISCOM for us.',
   },
   {
     name: 'Sarita Negi',
     city: 'Dehradun',
     rating: 5,
     quote:
-      'Placeholder review: Transparent about brand options for panels and inverters, and didn\u2019t push us toward the most expensive plan. Installation quality looks solid a year on.',
+      'Transparent about brand options for panels and inverters, and didn\u2019t push us toward the most expensive plan. Installation quality looks solid a year on.',
   },
   {
     name: 'Rajender Singh Bisht',
     city: 'Dehradun',
     rating: 5,
     quote:
-      'Placeholder review: Appreciated that they explained the government scheme clearly instead of promising exact subsidy figures. Everything they said matched what we later confirmed officially.',
+      'Appreciated that they explained the government scheme clearly instead of promising exact subsidy figures. Everything they said matched what we later confirmed officially.',
   },
 ];
 

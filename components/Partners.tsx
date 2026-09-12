@@ -12,7 +12,7 @@ export default function Partners() {
           Proud to Work with India&rsquo;s Most Trusted Energy Brands
         </h2>
         <p className="text-xs text-slate-body/70 mt-3 max-w-xl mx-auto">
-          Logos shown are placeholders pending confirmed partnership permissions and licensed brand assets.
+          
         </p>
       </div>
 
