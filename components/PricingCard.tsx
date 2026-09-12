@@ -41,7 +41,7 @@ export default function PricingCard({ plan, index }: { plan: Plan; index: number
           &#8377;{plan.price.toLocaleString('en-IN')}
         </span>
         <p className={`text-xs mt-1 ${plan.popular ? 'text-white/50' : 'text-slate-body/70'}`}>
-          Pre-subsidy price &mdash; 85800 subsidy applied separately based on eligibility
+          Pre-subsidy price &mdash; ₹85,800 subsidy applied separately based on eligibility
         </p>
       </div>
 
